@@ -1,4 +1,4 @@
-# 🌍✨ Planet-B: Save Humanity, Exoplanet 🚀💫
+# 🌍 Planet-B: Save Humanity, Exoplanet 🚀
 
 Welcome to **Planet-B**! 🌟 A playful app that takes you on a journey to the fascinating universe of exoplanets. In this adventure, you are responsible for choosing an exoplanet, nurturing it, and transforming it into a habitable home for humanity facing extinction. The fate of our species is in your hands! 🌱🌍
 
@@ -10,7 +10,7 @@ But Planet-B is not just about playing! 🎓 Each day, the app brings you new da
 ## 🚀 Landing Page + Demo
 Discover **Planet-B** in action! Here’s the link to our web:
 
-🔗 [Planet-B Web](https://www.planetb.vip)
+🔗 <a href="https://www.planetb.vip" target="_blank">Planet-B Web</a>
 
 ## 🎨 Figma Prototype
 Take a look at the interactive design and user flows we’ve created for Planet-B. Check out the prototype on Figma:
