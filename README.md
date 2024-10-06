@@ -36,3 +36,7 @@ All the project’s code is available in this repository. We’ve ensured the pr
 - **Marco García**: Graphic Designer [Linkedin](https://www.linkedin.com/in/marco-garc%C3%ADa-224174247/)
 
 Together, we are Planet-B, bringing the universe closer to you!
+
+## 🎥 Video Pitch
+
+https://github.com/user-attachments/assets/bc976112-a567-436a-9af3-feddd747046f
