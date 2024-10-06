@@ -100,7 +100,8 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("alert").style.display = "none"
     document.getElementById("icons").style.display = "none"
     document.getElementById("asteroids").style.display = "block"
-    document.getElementById("asteroids").style.marginTop = "500px"
+    document.getElementById("asteroids").style.marginTop = "300px"
+    document.getElementById("asteroids").style.marginLeft = "-100px"
     document.getElementById("destroy").style.display = ""
     document.getElementById("destroy").style.marginTop = "100px"
 
