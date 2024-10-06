@@ -5,7 +5,7 @@ Welcome to **Planet-B**! 🌟 A playful app that takes you on a journey to the f
 ## 🎯 Project Overview
 Earth is no longer enough, and we must search for a new home. In Planet-B, each player must make crucial decisions to make their exoplanet habitable 🌿. Explore the challenges of terraforming, manage limited resources, and face unexpected galactic events while striving to save humanity. It’s an epic intergalactic challenge! 🌌
 
-But Planet-B is not just about playing! 🎓 Each day, the app brings you new data and interesting facts about exoplanets, allowing you to learn while you play. You will dive into the science behind these distant worlds, exploring real astronomical data and enhancing your knowledge of the universe. 🪐🔭
+But Planet-B is not just about playing! 🎓 Each day, the app brings you new data and interesting facts about exoplanets, allowing you to learn while you play. You will dive into the science behind these distant worlds, exploring real astronomical data and enhancing your knowledge of the universe. 🔭
 
 ## 🚀 Landing Page + Demo
 Discover **Planet-B** in action! Here’s the link to our web:
