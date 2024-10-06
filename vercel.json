@@ -1,0 +1,13 @@
+{
+    "headers": [
+      {
+        "source": "/src/:path*.js",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "application/javascript"
+          }
+        ]
+      }
+    ]
+  }
