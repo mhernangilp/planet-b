@@ -1,13 +1,15 @@
 {
-    "headers": [
+    "builds": [
       {
-        "source": "/src/:path*.js",
-        "headers": [
-          {
-            "key": "Content-Type",
-            "value": "application/javascript"
-          }
-        ]
+        "src": "vite.config.js",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "dist"
+        }
       }
+    ],
+    "routes": [
+      { "src": "/src/(.*)", "dest": "/src/$1" }
     ]
   }
+  
