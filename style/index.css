@@ -12,28 +12,28 @@
         background-size: cover;
         background-color: black;
     }
-    
+
     .header{
         padding: 0;
         margin: 0;
     }
-    
+
     .header .nav ul{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
-    
+ 
     .header .nav ul li{
         list-style: none;
         font-family: yeysk;
         margin:0 10% 0 10%;
     }
-    
+
     .header .nav ul li:first-child{
         margin-left: 7%;
     }
-    
+
     .header .nav ul li a{
         text-decoration: none;
         color: #F6F5FA;
@@ -173,4 +173,42 @@
     .menu img{
         display: none;
     }
+}
+
+.profile-container {
+    display: flex; /* Usar Flexbox para alinear la foto y el texto */
+    overflow: hidden; /* Esconder desbordamientos */
+    width: 400px; /* Ancho fijo del contenedor */
+    margin: 20px auto; /* Centrar el contenedor */
+    padding: 4px; /* Espaciado interno */
+}
+
+.profile-picture {
+    width: 100px; /* Ancho fijo para la imagen */
+    height: 100px; /* Alto fijo para la imagen */
+    border-radius: 50%; /* Hacer la imagen circular */
+    overflow: hidden; /* Esconder parte de la imagen que sobresale */
+}
+
+.profile-picture img {
+    width: 100%; /* Ancho completo de la imagen */
+    height: 100%; /* Alto completo de la imagen */
+    object-fit: cover; /* Mantener la relación de aspecto */
+}
+
+.profile-info {
+    padding: 20px; /* Espaciado interno */
+    display: flex; /* Usar Flexbox para alinear texto */
+    flex-direction: column; /* Alinear verticalmente */
+    justify-content: center; /* Centrar verticalmente el texto */
+}
+
+.profile-info h2 {
+    margin: 0; /* Sin margen */
+    font-size: 24px; /* Tamaño de fuente para el nombre */
+}
+
+.profile-info p {
+    margin: 5px 0 0; /* Margen superior para el texto de profesión */
+    color: #777; /* Color gris para la profesión */
 }
