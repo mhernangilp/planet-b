@@ -18,32 +18,32 @@
         margin: 0;
     }
     
-    .header nav ul{
+    .header .nav ul{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
     
-    .header nav ul li{
+    .header .nav ul li{
         list-style: none;
         font-family: yeysk;
         margin:0 10% 0 10%;
     }
     
-    .header nav ul li:first-child{
+    .header .nav ul li:first-child{
         margin-left: 7%;
     }
     
-    .header nav ul li a{
+    .header .nav ul li a{
         text-decoration: none;
         color: #F6F5FA;
     }
     
-    .header nav ul li a:hover{
+    .header .nav ul li a:hover{
         color: #02E9B2;
     }
     
-    .header nav ul li{
+    .header .nav ul li{
         color: #F6F5FA;
         font-family: yeysk;
         font-size: 18px;
@@ -86,10 +86,10 @@
 
     header{
         width: 100%;
-        margin-left: -1%;
+        margin-bottom: 70px;
     }
 
-    header nav ul{
+    header .nav ul{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -97,19 +97,20 @@
         padding-top: 5%;
     }
 
-    .header nav ul li{
+    .header .nav ul li{
         color: #F6F5FA;
         font-family: yeysk;
         font-size: 18px;
         list-style: none;
+        margin: 1%;
     }
 
-    .header nav ul li a{
+    .header .nav ul li a{
         text-decoration: none;
         color: #F6F5FA;
     }
     
-    .header nav ul li a:hover{
+    .header .nav ul li a:hover{
         color: #02E9B2;
     }
 
@@ -120,7 +121,6 @@
         text-decoration: wavy;
         margin-top: -8%;
         text-align: center;
-        margin-right: 2%;
     }
     
     .text h1{
@@ -136,5 +136,41 @@
         font-optical-sizing: auto;
         font-style: normal;
         padding: 1%;
+    }
+}
+
+.font{
+    font-family: yeysk;
+    text-decoration: none;
+    color: #F6F5FA;
+    text-decoration: none;
+}
+
+.font:hover{
+    color: #02E9B2;
+}
+
+.space{
+    justify-content: space-between;
+}
+
+.menu{
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: none;
+    margin-left: 4%;
+    padding-left: 40px;
+}
+
+.menu img{
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (min-width: 992px){
+    .menu img{
+        display: none;
     }
 }
