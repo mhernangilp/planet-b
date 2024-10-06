@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom 3D Globe</title>
+  <link rel="stylesheet" href="demo.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Three.js as a module -->
+  <script type="module">
+    import * as THREE from 'three';
+    window.THREE = THREE;
+  </script>
+
+  <!-- Load Three-globe library -->
+  <script src="//unpkg.com/three-globe" defer></script>
+</head>
+
+<body>
+  <!-- Contenedor para el render del globo -->
+  <div id="globeViz">
+    <div class="globe-title">51 Pegasi b</div> <!-- Título del planeta -->
+  </div>
+
+  <!-- Elemento de overlay izquierdo -->
+  <div class="overlay left-overlay">
+    <h1>DEMO</h1>
+  </div>
+
+  <!-- Elemento de overlay derecho -->
+  <div class="overlay right-overlay">
+    <h1>DEMO</h1>
+  </div>
+
+  <!-- Load main.js for handling the globe visualization -->
+  <script src="demo.js" type="module"></script>
+</body>
+</html>

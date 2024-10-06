@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: black; /* Fondo negro */
+}
+
+#globeViz {
+    width: 33.33%; /* Un tercio de la pantalla */
+    height: 100vh; /* Altura completa */
+    position: absolute; /* Para colocarlo en el centro */
+    left: 33.33%; /* Centrar el contenedor */
+}
+
+.globe-title {
+    position: absolute;
+    top: 10px; /* Distancia desde la parte superior */
+    left: 50%; /* Centrar horizontalmente */
+    transform: translateX(-50%); /* Ajustar la posición para centrar */
+    color: #f0f0f0; /* Color del texto */
+    font-size: 24px; /* Tamaño de fuente */
+    text-align: center; /* Alinear el texto al centro */
+    z-index: 20; /* Asegurarse de que esté por encima del render */
+}
+
+.overlay {
+    position: absolute;
+    top: 45%;
+    width: 33.33%; /* Ancho del overlay (tercio de la pantalla) */
+    border-radius: 10px;
+    color: #f0f0f0;
+    text-align: center;
+}
+
+.left-overlay {
+    left: 0; /* Alinear a la izquierda */
+}
+
+.right-overlay {
+    right: 0; /* Alinear a la derecha */
+}
+
+.overlay h1 {
+    margin: 10px; /* Espaciado alrededor del texto */
+}
