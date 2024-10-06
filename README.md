@@ -19,13 +19,9 @@ Discover **Planet-B** in action! Here’s the link to our web:
 🔗 [Planet-B Web](https://www.planetb.vip)
 
 ## 🎨 Figma Prototype
-Take a look at the interactive design and user flows we’ve created for Planet-B. Check out the prototype on Figma:
+Take a look at the mockup we’ve created for Planet-B. Check it out on Figma:
 
-🔗 [Figma Prototype](https://www.planetb.vip)
-
-Additionally, you can view the full project on Figma:
-
-🔗 [Full Project in Figma](https://www.planetb.vip)
+🔗 [Figma Prototype](https://www.figma.com/design/rDJAnIgo38ZjhDImWYwOzS/SpaceApps2024?node-id=9-5&t=oKg1hFsp8qKun4v5-1)
 
 ## 🧑‍💻 Source Code
 All the project’s code is available in this repository. We’ve ensured the project is clean and efficient. 🛠
