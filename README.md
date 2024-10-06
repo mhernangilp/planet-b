@@ -31,3 +31,14 @@ Here are the resources we used to develop Planet-B:
 2. Terraforming: Engineering Planetary Environments - Martyn J. Fogg 📘
 3. Research on Habitability of Exoplanets - Astrophysical Journal Papers 🔬
 4. Game Design for Science Education - [GameDev.net](https://www.gamedev.net)
+
+## 👥 Team
+
+- **Marcos Hernangil Prats**: Software Engineer [Linkedin](https://www.linkedin.com/in/marcos-hernangil-prats/)  
+- **Carlos González Iglesias**: Web Developer [Linkedin](https://www.linkedin.com/in/clsgon/)
+- **Arantxa García Benitez**: Software Engineer [Linkedin](https://www.linkedin.com/in/arantxa-garcia-benitez-434b29233/)
+- **Sebastián Andrés Mayorquín**: Software Engineer [Linkedin](https://www.linkedin.com/in/samthink/)
+- **Joan Aristizábal Guillén**: Audiovisual and Multimedia Systems Engineer [Linkedin](https://www.linkedin.com/in/joan-aristiz%C3%A1bal-guill%C3%A9n-028b6b267/)
+- **Marco García**: Graphic Designer [Linkedin](https://www.linkedin.com/in/marco-garc%C3%ADa-224174247/)
+
+Together, we are Planet-B, bringing the universe closer to you!
