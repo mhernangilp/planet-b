@@ -1,6 +1,6 @@
 # 🌍 Planet-B: Save Humanity, Exoplanet 🚀
 
-Welcome to **Planet-B**! 🌟 A playful app that takes you on a journey to the fascinating universe of exoplanets. In this adventure, you are responsible for choosing an exoplanet, nurturing it, and transforming it into a habitable home for humanity facing extinction. The fate of our species is in your hands! 🌱🌍
+Welcome to **Planet-B**! 🌟 A playful app that takes you on a journey to the fascinating universe of exoplanets. In this adventure, you are responsible for choosing an exoplanet, nurturing it, and transforming it into a habitable home for humanity facing extinction. The fate of our species is in your hands! 🌍
 
 ## 🎯 Project Overview
 Earth is no longer enough, and we must search for a new home. In Planet-B, each player must make crucial decisions to make their exoplanet habitable 🌿. Explore the challenges of terraforming, manage limited resources, and face unexpected galactic events while striving to save humanity. It’s an epic intergalactic challenge! 🌌
@@ -22,7 +22,7 @@ Additionally, you can view the full project on Figma:
 🔗 [Full Project in Figma](https://www.planetb.vip)
 
 ## 🧑‍💻 Source Code
-All the project’s code is available in this repository. We’ve ensured the project is clean and efficient. 🛠️👨‍💻
+All the project’s code is available in this repository. We’ve ensured the project is clean and efficient. 🛠
 
 ## 📚 Bibliography
 Here are the resources we used to develop Planet-B:
