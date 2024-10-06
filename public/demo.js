@@ -6,7 +6,7 @@ import { TrackballControls } from 'three/addons/controls/TrackballControls.js';
 const scene = new THREE.Scene();
 
 // Crear el fondo de estrellas
-const starTexture = new THREE.TextureLoader().load('public/background2.jpg');
+const starTexture = new THREE.TextureLoader().load('/background2.jpg');
 const starMaterial = new THREE.MeshBasicMaterial({
   map: starTexture,
   side: THREE.BackSide,
@@ -20,8 +20,8 @@ scene.add(stars);
 
 // Crear el globo con texturas
 const Globe = new ThreeGlobe()
-  .globeImageUrl('public/gas-texture2.jpeg')
-  .bumpImageUrl('public/gas-topology.png');
+  .globeImageUrl('/gas-texture2.jpeg')
+  .bumpImageUrl('/gas-topology.png');
 
 // Material personalizado para el globo
 const globeMaterial = Globe.globeMaterial();
