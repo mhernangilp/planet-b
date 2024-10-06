@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'yeysk';
+    src: url('/yeysk.woff') format('woff'), /* Modern Browsers */
+}
+
+body {
+    margin: 0;
+    background-color: black; /* Fondo negro */
+}
+
+
+
+.globe-title {
+    position: absolute;
+    top: 10px; /* Distancia desde la parte superior */
+    left: 50%; /* Centrar horizontalmente */
+    transform: translateX(-50%); /* Ajustar la posición para centrar */
+    color: #f0f0f0; /* Color del texto */
+    font-size: 24px; /* Tamaño de fuente */
+    text-align: center; /* Alinear el texto al centro */
+    z-index: 20; /* Asegurarse de que esté por encima del render */
+}
+
+.globe-title .title{
+    font-family: yeysk;
+    margin-top: -40px;
+}
+
+.overlay {
+    position: absolute;
+    top: 45%;
+    width: 33.33%; /* Ancho del overlay (tercio de la pantalla) */
+    border-radius: 10px;
+    color: #f0f0f0;
+    text-align: center;
+}
+
+
+
+.overlay h1 {
+    margin: 10px; /* Espaciado alrededor del texto */
+}
+
+@media screen and (min-width: 480px){
+    .left-overlay {
+        left: 0; /* Alinear a la izquierda */
+    }
+    
+    .right-overlay {
+        right: 0; /* Alinear a la derecha */
+    }
+    
+    #globeViz {
+        width: 33.33%; /* Un tercio de la pantalla */
+        height: 100vh; /* Altura completa */
+        position: absolute; /* Para colocarlo en el centro */
+        left: 33.33%; /* Centrar el contenedor */
+    }
+}
+
+.alert{
+    margin-top: 180px;
+}
+
+.globe-title .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20%;
+    margin-left: 0px;
+    margin-top: -50px;
+}
+
+.co, .o{
+    width: 75px;
+}
+
+.co{
+    margin-left: -135px;
+}
+
+.o{
+    margin-left: 290px;
+}
+
+.asteroids{
+    width: 500px;
+    margin-top: 450px;
+    height: 130px;
+    display: none;
+}
+
+.asteroids img{
+    width:  60px;
+}
+
+.asteroids img:nth-child(2){
+    position: absolute;
+    left: 50%;
+    top: 90%;
+}
+
+.asteroids img:nth-child(4){
+    position: absolute;
+    left: 20%;
+    top: 90%;
+}
+
+.asteroids img:nth-child(3){
+    position: absolute;
+    right: 20%;
+    top: 80%;
+}
+
+.asteroids img:nth-child(1){
+    position: absolute;
+    right: 0%;
+    top: 80%;
+}
+
+.font{
+    font-family: yeysk;
+}
+
+.link{
+    font-family: yeysk;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #f0f0f0;
+}
+
+@media screen and (max-width: 480px){
+    .back{
+        display: none;
+    }
+
+    .globe-title .icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20%;
+        margin-left: 30px;
+        margin-top: -50px;
+    }
+    
+    .co, .o{
+        width: 75px;
+    }
+    
+    .co{
+        margin-left: -105px;
+    }
+    
+    .o{
+        margin-left: 180px;
+    }
+
+    .asteroids{
+        margin-left: -145px;
+    }
+}
