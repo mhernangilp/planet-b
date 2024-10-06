@@ -26,14 +26,6 @@ Take a look at the mockup we’ve created for Planet-B. Check it out on Figma:
 ## 🧑‍💻 Source Code
 All the project’s code is available in this repository. We’ve ensured the project is clean and efficient. 🛠
 
-## 📚 Bibliography
-Here are the resources we used to develop Planet-B:
-
-1. NASA Exoplanet Exploration Program - [Explore Exoplanets](https://exoplanets.nasa.gov)
-2. Terraforming: Engineering Planetary Environments - Martyn J. Fogg 📘
-3. Research on Habitability of Exoplanets - Astrophysical Journal Papers 🔬
-4. Game Design for Science Education - [GameDev.net](https://www.gamedev.net)
-
 ## 👥 Team
 
 - **Marcos Hernangil Prats**: Software Engineer [Linkedin](https://www.linkedin.com/in/marcos-hernangil-prats/)  
