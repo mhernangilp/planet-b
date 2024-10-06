@@ -10,7 +10,7 @@ But Planet-B is not just about playing! 🎓 Each day, the app brings you new da
 ## 🚀 Landing Page + Demo
 Discover **Planet-B** in action! Here’s the link to our web:
 
-🔗 <a href="https://www.planetb.vip" target="_blank">Planet-B Web</a>
+🔗 [Planet-B Web](https://www.planetb.vip)
 
 ## 🎨 Figma Prototype
 Take a look at the interactive design and user flows we’ve created for Planet-B. Check out the prototype on Figma:
