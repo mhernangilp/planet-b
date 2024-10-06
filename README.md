@@ -1,4 +1,4 @@
-# 🌍 Planet-B: Save Humanity, Exoplanet 🚀
+# 🌍 Planet-B: Transform the Unknown 🚀
 
 Welcome to **Planet-B**! 🌟 A playful app that takes you on a journey to the fascinating universe of exoplanets. In this adventure, you are responsible for choosing an exoplanet, nurturing it, and transforming it into a habitable home for humanity facing extinction. The fate of our species is in your hands! 🌍
 
