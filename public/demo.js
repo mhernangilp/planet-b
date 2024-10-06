@@ -1,6 +1,7 @@
 import * as THREE from 'three';
 import ThreeGlobe from 'three-globe';
-import { TrackballControls } from 'three/addons/controls/TrackballControls.js';
+import { TrackballControls } from 'three/examples/jsm/controls/TrackballControls.js'; // Cambia esto
+
 
 // Crear la escena
 const scene = new THREE.Scene();
