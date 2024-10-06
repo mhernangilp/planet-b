@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom 3D Globe</title>
+  <link rel="stylesheet" href="demo.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Three.js as a module -->
+  <script type="module">
+    import * as THREE from 'three';
+    window.THREE = THREE;
+  </script>
+
+  <!-- Load Three-globe library -->
+  <script src="//unpkg.com/three-globe" defer></script>
+</head>
+
+<body>
+  <!-- Contenedor para el render del globo -->
+  <div id="globeViz">
+    <div class="globe-title">
+      <div class="icons" id="icons">
+        <img src="./img/co2.png" alt="co2" class="co">
+        <img src="./img/o2.png" alt="o2" class="o">
+      </div>
+      <p class="title" id="title">51 Pegasi b</p>
+      <p class="title" id="destroy">Click To Destroy Them!</p>
+      <div class="alert" id="alert">
+        <img src="./img/alert.png" alt="alert">  
+      </div>
+      <div class="asteroids" id="asteroids">
+        <img src="./img/asteroid.png" alt="asteroid">
+        <img src="./img/asteroid.png" alt="asteroid">
+        <img src="./img/asteroid.png" alt="asteroid">
+        <img src="./img/asteroid.png" alt="asteroid">
+        <img src="./img/asteroid.png" alt="asteroid">
+      </div>
+    </div> <!-- Título del planeta -->
+  </div>
+
+  <div class="overlay left-overlay back">
+    <h1 class="font">PLANET-B</h1>
+  </div>
+
+  <!-- Elemento de overlay derecho -->
+  <div class="overlay right-overlay back">
+    <h1><a href="./index.html" class="link">Back To Home</a></h1>
+  </div>
+
+  <!-- Load main.js for handling the globe visualization -->
+  <script src="demo.js" type="module"></script>
+</body>
+</html>
