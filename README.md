@@ -2,10 +2,16 @@
 
 Welcome to **Planet-B**! 🌟 A playful app that takes you on a journey to the fascinating universe of exoplanets. In this adventure, you are responsible for choosing an exoplanet, nurturing it, and transforming it into a habitable home for humanity facing extinction. The fate of our species is in your hands! 🌍
 
+This proyect is part of the [Nasa Space Apps Challenge](https://www.spaceappschallenge.org/) hackathon.
+
 ## 🎯 Project Overview
 Earth is no longer enough, and we must search for a new home. In Planet-B, each player must make crucial decisions to make their exoplanet habitable 🌿. Explore the challenges of terraforming, manage limited resources, and face unexpected galactic events while striving to save humanity. It’s an epic intergalactic challenge! 🌌
 
 But Planet-B is not just about playing! 🎓 Each day, the app brings you new data and interesting facts about exoplanets, allowing you to learn while you play. You will dive into the science behind these distant worlds, exploring real astronomical data and enhancing your knowledge of the universe. 🔭
+
+## 🚀 Challenge: Chronicles of Exoplanet Exploration
+
+Embark on a journey to revolutionize exoplanet education! The discovery of exoplanets has transformed our understanding of planetary systems, revealing the diversity of worlds beyond our own. Our challenge is to create engaging and accessible learning materials that inspire curiosity about exoplanets. Let's make exoplanet exploration exciting and inclusive for everyone!
 
 ## 🚀 Landing Page + Demo
 Discover **Planet-B** in action! Here’s the link to our web:
