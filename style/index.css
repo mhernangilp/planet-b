@@ -3,32 +3,130 @@
     src: url('../fonts/yeysk.woff') format('woff'), /* Modern Browsers */
 }
 
-body{
-    background-color: #141820;
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+@media screen and (min-width: 956px) {
+    body{
+        background-image: url('../img/pexels-amazingrenders-9193624.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: black;
+    }
+    
+    .header{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .header nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .header nav ul li{
+        list-style: none;
+        font-family: yeysk;
+        margin:0 10% 0 10%;
+    }
+    
+    .header nav ul li:first-child{
+        margin-left: 7%;
+    }
+    
+    .header nav ul li a{
+        text-decoration: none;
+        color: #F6F5FA;
+    }
+    
+    .header nav ul li a:hover{
+        color: #02E9B2;
+    }
+    
+    .header nav ul li{
+        color: #F6F5FA;
+        font-family: yeysk;
+        font-size: 18px;
+    }
+    
+    .text{
+        float: right;
+        color: #F6F5FA;
+        padding: 10%;
+        height: 39vh;
+        width: 60%;
+        text-decoration: wavy;
+        padding-top: 3%;
+    }
+    
+    .text h1{
+        font-family: yeysk;
+        color: #02E9B2;
+    }
+    
+    .text p{
+        font-size: 18px;
+        font-family: "Unbounded", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
 }
 
-.header{
-    padding: 0;
-}
+@media screen and (max-width: 956px){
+    body{
+        background-image: url('../img/backPhone.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: black;
+    }
 
-.header nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+    header{
+        width: 100%;
+    }
 
-.header nav ul li{
-    list-style: none;
-    font-family: yeysk;
-}
+    header nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10%;
+        padding-top: 5%;
+    }
 
-.header nav ul li a{
-    text-decoration: none;
-    color: #F6F5FA;
-}
+    .header nav ul li{
+        color: #F6F5FA;
+        font-family: yeysk;
+        font-size: 18px;
+        list-style: none;
+    }
 
-.header nav ul li{
-    color: #F6F5FA;
-    font-family: yeysk;
-    font-size: 18px;
+    .header nav ul li a{
+        text-decoration: none;
+        color: #F6F5FA;
+    }
+    
+    .header nav ul li a:hover{
+        color: #02E9B2;
+    }
+
+    .text{
+        float: right;
+        color: #F6F5FA;
+        width: 100%;
+        text-decoration: wavy;
+        margin-top: -8%;
+        text-align: center;
+    }
+    
+    .text h1{
+        font-family: yeysk;
+        color: #02E9B2;
+        font-size: 24px;
+    }
+    
+    .text p{
+        font-size: 18px;
+        font-family: "Unbounded", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
 }
