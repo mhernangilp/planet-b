@@ -1,1 +1,1 @@
-# planet-b
+# planetb
